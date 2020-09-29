@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body><style>
+body
+{
+        font-family: 'Bitter', serif;
+        font-size: medium;
+        font-weight: normal;
+        font-style: oblique;
+        background-image: url('https://img2.pngio.com/best-hd-backgrounds-full-screen-for-desktop-with-images-city-laptop-wallpaper-png-1920_1080.png');
+        background-size:cover ;
+        text-align: justify;
+}
+    </style>
+    <section id="input">
+        <table>
+            <tr>
+                <td>NAME :<br></td>
+                <td><span id="name"></span><input type="text" name="Name" id="input1" placeholder="Enter your name" required><br></td>
+            </tr>
+            <tr>
+                <td>FATHER NAME :<br></td>
+                <td><span id="name"></span><input type="text" name="Name" id="input1" placeholder="Enter name" required><br></td>
+            </tr>
+            <tr>
+                <td>DOB :</td>
+                <td><span id="dob"></span><input type="date" name="dob" required><br></td>
+            </tr>
+            <tr>
+                <td>COURSE :</td>
+                <td><select name="COURSE" id="course" placeholder="Select your Subject">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="MBA">MBA</option>
+                    </select><br></td>
+            </tr>
+            <tr>
+                <td>GENDER :</td>
+                <td><span id="gender"></span>MALE<input type="radio" name="caste" required>FEMALE<input type="radio" name="caste" required><br></td>
+            </tr>
+            <tr>
+                <td>CASTE :</td>
+                <td><span id="caste"></span>ST<input type="checkbox" name="caste" required>SC<input type="checkbox" name="caste" required>OBC<input type="checkbox" name="caste" required>GEN<input type="checkbox" name="caste" required>OTHER<input type="checkbox" name="caste" required><br></td>
+            </tr>
+            <tr>
+                <td>ADDRESS :</td>
+                <td><span id="address"></span><textarea name="address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>PINCODE :</td>
+                <td><span id="pincode"></span><input type="text" placeholder="Enter your PIN" required><br></td>
+            </tr>
+            <tr>
+                <td>CONTACT NO. :</td>
+                <td><span id="contact"></span><input type="number" placeholder="Enter your no." required><br></td>
+            </tr>
+            <tr>
+                <td>SUBJECT :</td>
+                <td><select name="SUBJECT" id="sub" placeholder="Select Subject">
+                    <option value="ADC">ADC</option>
+                    <option value="MPA">MPA</option>
+                    <option value="MA">MA</option>
+                    <option value="CE">CE</option>
+                    <option value="MPOB">MPOB</option>
+                    </select><br></td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td><span id="hobbies"></span><textarea name="hobbies" required></textarea></td>
+            </tr>
+        </table>
+        <button id="SUBMIT" type="submit"><bold>SUBMIT</bold> </button>
+        <button id="RESET" type="reset"><bold>RESET</bold> </button>
+    </section>
+</body>
+
+</html>
